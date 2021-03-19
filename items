@@ -1,0 +1,237 @@
+[
+  {
+    "id": null,
+    "agreementType": "Test type",
+    "chapters": [
+      {
+        "label": "collateralDetails",
+        "visible": true,
+        "attributePaths": [
+          "chapters.collateralDetails.collateralComments",
+          "chapters.collateralDetails.nordeaPostsCollateral",
+          "chapters.collateralDetails.valuationFrequencyDayOfMonth",
+          "chapters.collateralDetails.valuationFrequencyEvenOddWeeks",
+          "chapters.collateralDetails.triPartyAgreement",
+          "chapters.collateralDetails.collateralAgreement",
+          "chapters.collateralDetails.valuationAgent",
+          "chapters.collateralDetails.valuationFrequencyDayOfWeek",
+          "chapters.collateralDetails.cptyPostsCollateral",
+          "chapters.collateralDetails.valuationFrequency"
+        ]
+      },
+      {
+        "label": "paymentNettingProvision",
+        "visible": true,
+        "attributePaths": [
+          "chapters.paymentNettingProvision.paymentNetting",
+          "chapters.paymentNettingProvision.paymentNettingTerms"
+        ]
+      },
+      {
+        "label": "nordea",
+        "visible": true,
+        "attributePaths": [
+          "coreAgreement.nordea.nordeaContractingEntity",
+          "coreAgreement.nordea.nordeaCoveredBranches",
+          "coreAgreement.nordea.multifund"
+        ]
+      },
+      {
+        "label": "other",
+        "visible": true,
+        "attributePaths": [
+          "chapters.other.clearing",
+          "chapters.other.isdaBridgeLetter",
+          "chapters.other.dateOfLastModification",
+          "chapters.other.legalOpinion",
+          "chapters.other.giveUpAgreement",
+          "chapters.other.legalOpinionReviewDate",
+          "chapters.other.clearingNordeaRole",
+          "chapters.other.giveUpClients"
+        ]
+      },
+      {
+        "label": "coreAttributes",
+        "visible": true,
+        "attributePaths": [
+          "coreAgreement.coreAttributes.agreementComments",
+          "coreAgreement.coreAttributes.agreementReference",
+          "coreAgreement.coreAttributes.agreementBusinessKey",
+          "coreAgreement.coreAttributes.agreementMasterType",
+          "coreAgreement.coreAttributes.agreementSettlementCurrency",
+          "coreAgreement.coreAttributes.governingLaw",
+          "coreAgreement.coreAttributes.agreementType",
+          "coreAgreement.coreAttributes.documentationUnit",
+          "coreAgreement.coreAttributes.agreementSuperType"
+        ]
+      },
+      {
+        "label": "partyIdent",
+        "visible": true,
+        "attributePaths": [
+          "coreAgreement.partyIdent.counterpartyName",
+          "coreAgreement.partyIdent.shortName",
+          "coreAgreement.partyIdent.counterpartyTCCid",
+          "coreAgreement.partyIdent.counterpartyCoveredBranches"
+        ]
+      },
+      {
+        "label": "agreementValidity",
+        "visible": true,
+        "attributePaths": [
+          "coreAgreement.agreementValidity.datedAsOf",
+          "coreAgreement.agreementValidity.ceasedAsOf",
+          "coreAgreement.agreementValidity.includedTrades",
+          "coreAgreement.agreementValidity.validityStartDate",
+          "coreAgreement.agreementValidity.excludedTrades",
+          "coreAgreement.agreementValidity.signingDate",
+          "coreAgreement.agreementValidity.effectiveAsOf",
+          "coreAgreement.agreementValidity.validityEndDate"
+        ]
+      },
+      {
+        "label": "threshold",
+        "visible": true,
+        "attributePaths": [
+          "chapters.threshold.minimumTransferAmtCptyCcy",
+          "chapters.threshold.thresholdRatingApplicableCpty",
+          "chapters.threshold.minimumTransferAmtNordea",
+          "chapters.threshold.minimumTransferAmtNordeaCcy",
+          "chapters.threshold.thresholdAmtNordea",
+          "chapters.threshold.thresholdAmtCpty",
+          "chapters.threshold.thresholdCcyCpty",
+          "chapters.threshold.minimumTransferAmtCpty",
+          "chapters.threshold.thresholdRatingApplicableNordea",
+          "chapters.threshold.thresholdCcyNordea"
+        ]
+      },
+      {
+        "label": "sftrAttributes",
+        "visible": true,
+        "attributePaths": [
+          "chapters.sftrAttributes.exclusiveArrangements",
+          "chapters.sftrAttributes.uncollaterizedSLFlag",
+          "chapters.sftrAttributes.prefundingRequirements",
+          "chapters.sftrAttributes.gmslaAgreementVersion",
+          "chapters.sftrAttributes.methodUsedToProvideCollateral"
+        ]
+      },
+      {
+        "label": "repoAnnex",
+        "visible": true,
+        "attributePaths": [
+          "chapters.repoAnnex.repricing",
+          "chapters.repoAnnex.ukGiltEdgedSecurities",
+          "chapters.repoAnnex.marginCcyThresholdCpty",
+          "chapters.repoAnnex.marginCcyThresholdNordea",
+          "chapters.repoAnnex.spotRate",
+          "chapters.repoAnnex.deliveryPeriod",
+          "chapters.repoAnnex.netPayingSecurities",
+          "chapters.repoAnnex.buySellTransactions",
+          "chapters.repoAnnex.italianGovBonds",
+          "chapters.repoAnnex.repricingCcyThresholdCpty",
+          "chapters.repoAnnex.repricingCcyThresholdNordea",
+          "chapters.repoAnnex.marginTransfer",
+          "chapters.repoAnnex.transactionExposure",
+          "chapters.repoAnnex.agencyTransactions",
+          "chapters.repoAnnex.interestRateCashMargin"
+        ]
+      },
+      {
+        "label": "agreementLifecycle",
+        "visible": true,
+        "attributePaths": [
+          "coreAgreement.agreementLifecycle.statusDate",
+          "coreAgreement.agreementLifecycle.agreementStatus"
+        ]
+      },
+      {
+        "label": "independentAmount",
+        "visible": true,
+        "attributePaths": [
+          "chapters.independentAmount.independentAmtTradeLevel",
+          "chapters.independentAmount.independentAmtCpty",
+          "chapters.independentAmount.independentAmtNordea",
+          "chapters.independentAmount.independentAmtCptyCcy",
+          "chapters.independentAmount.independentAmtNordeaCcy"
+        ]
+      },
+      {
+        "label": "otherNettingAttribute",
+        "visible": true,
+        "attributePaths": [
+          "chapters.otherNettingAttribute.terminationCurrency",
+          "chapters.otherNettingAttribute.jurisdiction"
+        ]
+      },
+      {
+        "label": "closeOutNettingProvision",
+        "visible": true,
+        "attributePaths": [
+          "chapters.closeOutNettingProvision.closeoutNetting"
+        ]
+      },
+      {
+        "label": "contractingCounterparty",
+        "visible": true,
+        "attributePaths": [
+          "chapters.contractingCounterparty.counterpartyLegalCountry",
+          "chapters.contractingCounterparty.counterpartyLeiCodeStatus",
+          "chapters.contractingCounterparty.counterpartyMainLegacyId",
+          "chapters.contractingCounterparty.counterpartyLeiCode",
+          "chapters.contractingCounterparty.counterpartyCountryOfDomicile",
+          "chapters.contractingCounterparty.counterpartyMifidClassification",
+          "chapters.contractingCounterparty.counterpartyCruBranch",
+          "chapters.contractingCounterparty.counterpartyCruManager",
+          "chapters.contractingCounterparty.counterpartyWssCustomerNumber",
+          "chapters.contractingCounterparty.counterpartyCountryOfIncorporation",
+          "chapters.contractingCounterparty.counterpartyMainLegacyCountry"
+        ]
+      },
+      {
+        "label": "initialAmount",
+        "visible": true,
+        "attributePaths": [
+          "chapters.initialAmount.initialAmountNordeaCcy",
+          "chapters.initialAmount.initialAmountCptyCcy",
+          "chapters.initialAmount.initialAmountNordea",
+          "chapters.initialAmount.initialAmountCpty"
+        ]
+      },
+      {
+        "label": "creditHierarchy",
+        "visible": true,
+        "attributePaths": [
+          "chapters.creditHierarchy.counterpartyLegalType",
+          "chapters.creditHierarchy.counterpartyHierarchyLvl"
+        ]
+      },
+      {
+        "label": "rounding",
+        "visible": true,
+        "attributePaths": [
+          "chapters.rounding.roundingAmtNdeaCcy",
+          "chapters.rounding.roundingAmtCptyCcy",
+          "chapters.rounding.roundingAmtNdea",
+          "chapters.rounding.roundingReturn",
+          "chapters.rounding.roundingDelivery",
+          "chapters.rounding.roundingAmtCpty"
+        ]
+      },
+      {
+        "label": "baseCurrency",
+        "visible": true,
+        "attributePaths": [
+          "chapters.baseCurrency.agreementBaseCurrency"
+        ]
+      },
+      {
+        "label": "coveredProducts",
+        "visible": true,
+        "attributePaths": [
+          "chapters.coveredProducts.legalProductCoverage"
+        ]
+      }
+    ]
+  }
+]
