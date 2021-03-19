@@ -1,818 +1,589 @@
 [{
-    "partyIdent": {
-        "label": "partyIdent",
-        "counterpartyName": {
-            "label": "counterpartyName",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "counterparty",
-            "value": ""
-        },
-        "shortName": {
-            "label": "shortName",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyTCCid": {
-            "label": "counterpartyTCCid",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyCoveredBranches": {
-            "label": "counterpartyCoveredBranches",
-            "disabled": false,
-            "multipleValues": true,
-            "type": "dropdown",
-            "value": []
-        }
+  "group1": {
+    "label": "group1",
+    "greenStateNme": {
+      "label": "Green staten name",
+      "type": "input",
+      "value": ""
     },
-    "collateralDetails": {
-        "label": "collateralDetails",
-        "collateralComments": {
-            "label": "collateralComments",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "nordeaPostsCollateral": {
-            "label": "nordeaPostsCollateral",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "valuationFrequencyDayOfMonth": {
-            "label": "valuation Frequency Day Of Month",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "checkbox",
-            "value": []
-        },
-        "valuationFrequencyEvenOddWeeks": {
-            "label": "valuationFrequencyEvenOddWeeks",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "triPartyAgreement": {
-            "label": "triPartyAgreement",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "collateralAgreement": {
-            "label": "collateralAgreement",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": ""
-        },
-        "valuationAgent": {
-            "label": "valuationAgent",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "valuationFrequencyDayOfWeek": {
-            "label": "valuationFrequencyDayOfWeek",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "checkbox",
-            "value": []
-        },
-        "cptyPostsCollateral": {
-            "label": "cptyPostsCollateral",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "valuationFrequency": {
-            "label": "valuationFrequency",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        }
+    "shortName": {
+      "label": "Short name",
+      "type": "input",
+      "value": ""
     },
-    "paymentNettingProvision": {
-        "label": "paymentNettingProvision",
-        "paymentNetting": {
-            "label": "paymentNetting",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "paymentNettingTerms": {
-            "label": "paymentNettingTerms",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        }
+    "cid": {
+      "label": "cid",
+      "type": "input",
+      "value": ""
     },
-    "nordea": {
-        "label": "nordea",
-        "nordeaContractingEntity": {
-            "label": "nordeaContractingEntity",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "contractingEntity",
-            "value": ""
-        },
-        "nordeaCoveredBranches": {
-            "label": "nordeaCoveredBranches",
-            "disabled": false,
-            "multipleValues": true,
-            "type": "dropdown",
-            "value": []
-        },
-        "multifund": {
-            "label": "multifund",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "multifund",
-            "value": ""
-        }
+    "branches": {
+      "label": "Branches",
+      "type": "dropdown",
+      "value": []
+    }
+  },
+  "group2": {
+    "label": "group2",
+    "comments": {
+      "label": "Comments",
+      "type": "input",
+      "value": ""
     },
-    "other": {
-        "label": "other",
-        "clearing": {
-            "label": "clearing",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "isdaBridgeLetter": {
-            "label": "isdaBridgeLetter",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "dateOfLastModification": {
-            "label": "dateOfLastModification",
-            "disabled": true,
-            "multipleValues": false,
-            "type": "datePicker",
-            "value": ""
-        },
-        "legalOpinion": {
-            "label": "legalOpinion",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "giveUpAgreement": {
-            "label": "giveUpAgreement",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "legalOpinionReviewDate": {
-            "label": "legalOpinionReviewDate",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "datePicker",
-            "value": ""
-        },
-        "clearingNordeaRole": {
-            "label": "clearingNordeaRole",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "giveUpClients": {
-            "label": "giveUpClients",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": []
-        }
+    "posts": {
+      "label": "Posts",
+      "type": "radio",
+      "value": null
     },
-    "coreAttributes": {
-        "label": "coreAttributes",
-        "agreementComments": {
-            "label": "agreementComments",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "agreementReference": {
-            "label": "agreementReference",
-            "disabled": true,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "agreementMasterType": {
-            "label": "agreementMasterType",
-            "disabled": true,
-            "multipleValues": false,
-            "type": "input",
-            "value": "Test master type"
-        },
-        "agreementSettlementCurrency": {
-            "label": "agreementSettlementCurrency",
-            "disabled": false,
-            "multipleValues": true,
-            "type": "dropdown",
-            "value": []
-        },
-        "governingLaw": {
-            "label": "governingLaw",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "agreementType": {
-            "label": "agreementType",
-            "disabled": true,
-            "multipleValues": false,
-            "type": "input",
-            "value": "Test type"
-        },
-        "documentationUnit": {
-            "label": "documentationUnit",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "agreementSuperType": {
-            "label": "agreementSuperType",
-            "disabled": true,
-            "multipleValues": false,
-            "type": "input",
-            "value": "Test super type"
-        }
+    "valuationFrequency": {
+      "label": "valuation Frequency",
+      "type": "checkbox",
+      "value": []
     },
-    "agreementValidity": {
-        "label": "agreementValidity",
-        "datedAsOf": {
-            "label": "datedAsOf",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "datePicker",
-            "value": ""
-        },
-        "ceasedAsOf": {
-            "label": "ceasedAsOf",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "datePicker",
-            "value": ""
-        },
-        "includedTrades": {
-            "label": "includedTrades",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "tag",
-            "value": []
-        },
-        "validityStartDate": {
-            "label": "validityStartDate",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "datePicker",
-            "value": ""
-        },
-        "excludedTrades": {
-            "label": "excludedTrades",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "tag",
-            "value": []
-        },
-        "signingDate": {
-            "label": "signingDate",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "datePicker",
-            "value": ""
-        },
-        "effectiveAsOf": {
-            "label": "effectiveAsOf",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "datePicker",
-            "value": ""
-        },
-        "validityEndDate": {
-            "label": "validityEndDate",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "datePicker",
-            "value": ""
-        }
+    "weeks": {
+      "label": "Weeks",
+      "type": "dropdown",
+      "value": ""
     },
-    "threshold": {
-        "label": "threshold",
-        "minimumTransferAmtCptyCcy": {
-            "label": "minimumTransferAmtCptyCcy",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "thresholdRatingApplicableCpty": {
-            "label": "thresholdRatingApplicableCpty",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "minimumTransferAmtNordea": {
-            "label": "minimumTransferAmtNordea",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "minimumTransferAmtNordeaCcy": {
-            "label": "minimumTransferAmtNordeaCcy",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "thresholdAmtNordea": {
-            "label": "thresholdAmtNordea",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "thresholdAmtCpty": {
-            "label": "thresholdAmtCpty",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "thresholdCcyCpty": {
-            "label": "thresholdCcyCpty",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "minimumTransferAmtCpty": {
-            "label": "minimumTransferAmtCpty",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "thresholdRatingApplicableNordea": {
-            "label": "thresholdRatingApplicableNordea",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "thresholdCcyNordea": {
-            "label": "thresholdCcyNordea",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        }
+    "triParty": {
+      "label": "Tri Party",
+      "type": "radio",
+      "value": null
     },
-    "sftrAttributes": {
-        "label": "sftrAttributes",
-        "exclusiveArrangements": {
-            "label": "exclusiveArrangements",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "uncollaterizedSLFlag": {
-            "label": "uncollaterizedSLFlag",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "prefundingRequirements": {
-            "label": "prefundingRequirements",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "gmslaAgreementVersion": {
-            "label": "gmslaAgreementVersion",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "methodUsedToProvideCollateral": {
-            "label": "methodUsedToProvideCollateral",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        }
+    "collateral": {
+      "label": "Collateral",
+      "type": "radio",
+      "value": ""
     },
-    "repoAnnex": {
-        "label": "repoAnnex",
-        "repricing": {
-            "label": "repricing",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "repricing",
-            "value": null
-        },
-        "ukGiltEdgedSecurities": {
-            "label": "ukGiltEdgedSecurities",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "marginCcyThresholdCpty": {
-            "label": "marginCcyThresholdCpty",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "marginCcyThresholdNordea": {
-            "label": "marginCcyThresholdNordea",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "spotRate": {
-            "label": "spotRate",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "deliveryPeriod": {
-            "label": "deliveryPeriod",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "netPayingSecurities": {
-            "label": "netPayingSecurities",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "buySellTransactions": {
-            "label": "buySellTransactions",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "italianGovBonds": {
-            "label": "italianGovBonds",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "repricingCcyThresholdCpty": {
-            "label": "repricingCcyThresholdCpty",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "repricingCcyThresholdNordea": {
-            "label": "repricingCcyThresholdNordea",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "marginTransfer": {
-            "label": "marginTransfer",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "marginTransfer",
-            "value": null
-        },
-        "transactionExposure": {
-            "label": "transactionExposure",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "agencyTransactions": {
-            "label": "agencyTransactions",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        },
-        "interestRateCashMargin": {
-            "label": "interestRateCashMargin",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        }
+    "agent": {
+      "label": "Agent",
+      "type": "dropdown",
+      "value": ""
     },
-    "agreementLifecycle": {
-        "label": "agreementLifecycle",
-        "statusDate": {
-            "label": "statusDate",
-            "disabled": true,
-            "multipleValues": false,
-            "type": "datePicker",
-            "value": ""
-        },
-        "agreementStatus": {
-            "label": "agreementStatus",
-            "disabled": true,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        }
+    "dayOfWeek": {
+      "label": "Day Of Week",
+      "type": "checkbox",
+      "value": []
     },
-    "independentAmount": {
-        "label": "independentAmount",
-        "independentAmtTradeLevel": {
-            "label": "independentAmtTradeLevel",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": ""
-        },
-        "independentAmtCpty": {
-            "label": "independentAmtCpty",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "independentAmtNordea": {
-            "label": "independentAmtNordea",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "independentAmtCptyCcy": {
-            "label": "independentAmtCptyCcy",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "independentAmtNordeaCcy": {
-            "label": "independentAmtNordeaCcy",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        }
+    "cptyPosts": {
+      "label": "cpty Posts",
+      "type": "radio",
+      "value": null
     },
-    "otherNettingAttribute": {
-        "label": "otherNettingAttribute",
-        "terminationCurrency": {
-            "label": "terminationCurrency",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "jurisdiction": {
-            "label": "jurisdiction",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        }
+    "valFrequency": {
+      "label": "Val Frequency",
+      "type": "dropdown",
+      "value": ""
+    }
+  },
+  "group3": {
+    "label": "group3",
+    "paymentNetting": {
+      "label": "payment Netting",
+      "type": "radio",
+      "value": null
     },
-    "closeOutNettingProvision": {
-        "label": "closeOutNettingProvision",
-        "closeoutNetting": {
-            "label": "closeoutNetting",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "radio",
-            "value": null
-        }
+    "paymentNettingTerms": {
+      "label": "payment Netting Terms",
+      "type": "dropdown",
+      "value": ""
+    }
+  },
+  "group4": {
+    "label": "group4",
+    "contractingEntity": {
+      "label": "Contracting Entity",
+      "type": "contractingEntity",
+      "value": ""
     },
-    "contractingCounterparty": {
-        "label": "contractingCounterparty",
-        "counterpartyLegalCountry": {
-            "label": "counterpartyLegalCountry",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyLeiCodeStatus": {
-            "label": "counterpartyLeiCodeStatus",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyMainLegacyId": {
-            "label": "counterpartyMainLegacyId",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyLeiCode": {
-            "label": "counterpartyLeiCode",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyCountryOfDomicile": {
-            "label": "counterpartyCountryOfDomicile",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyMifidClassification": {
-            "label": "counterpartyMifidClassification",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyCruBranch": {
-            "label": "counterpartyCruBranch",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyCruManager": {
-            "label": "counterpartyCruManager",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyWssCustomerNumber": {
-            "label": "counterpartyWssCustomerNumber",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyCountryOfIncorporation": {
-            "label": "counterpartyCountryOfIncorporation",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "counterpartyMainLegacyCountry": {
-            "label": "counterpartyMainLegacyCountry",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        }
+    "coveredBranches": {
+      "label": "Covered Branches",
+      "disabled": false,
+      "multipleValues": true,
+      "type": "dropdown",
+      "value": []
+    },
+    "multifund": {
+      "label": "multifund",
+      "type": "multifund",
+      "value": ""
+    }
+  },
+  "group5": {
+    "label": "group5",
+    "clearing": {
+      "label": "clearing",
+      "type": "radio",
+      "value": null
+    },
+    "bridgeLetter": {
+      "label": "Bridge Letter",
+      "type": "radio",
+      "value": null
+    },
+    "dateOfLastModification": {
+      "label": "Date Of Last Modification",
+      "type": "datePicker",
+      "value": ""
+    },
+    "legalOpinion": {
+      "label": "legalOpinion",
+      "type": "dropdown",
+      "value": ""
+    },
+    "giveUpDatae": {
+      "label": "give Up Date",
+      "type": "radio",
+      "value": null
+    },
+    "legalOpinionReviewDate": {
+      "label": "legalOpinionReviewDate",
+      "type": "datePicker",
+      "value": ""
+    },
+    "clearingRole": {
+      "label": "clearingRole",
+      "type": "dropdown",
+      "value": ""
+    },
+    "giveUpClients": {
+      "label": "Give Up Clients",
+      "type": "input",
+      "value": []
+    }
+  },
+  "group6": {
+    "label": "group6",
+    "dataComments": {
+      "label": "Data Comments",
+      "type": "input",
+      "value": ""
+    },
+    "reference": {
+      "label": "Reference",
+      "type": "input",
+      "value": ""
+    },
+    "masterType": {
+      "label": "MasterType"
+      "type": "input",
+      "value": "Test master type"
+    },
+    "settlementCurrency": {
+      "label": "Settlement Currency",
+      "type": "dropdown",
+      "value": []
+    },
+    "governingLaw": {
+      "label": "governingLaw",
+      "type": "dropdown",
+      "value": ""
+    },
+    "dataType": {
+      "label": "Data type",
+      "type": "input",
+      "value": "Test type"
+    },
+    "documentationUnit": {
+      "label": "documentationUnit",
+      "type": "dropdown",
+      "value": ""
+    },
+  },
+  "group7": {
+    "label": "group7",
+    "datedAsOf": {
+      "label": "datedAsOf",
+      "type": "datePicker",
+      "value": ""
+    },
+    "ceasedAsOf": {
+      "label": "ceasedAsOf",
+      "type": "datePicker",
+      "value": ""
+    },
+    "includedTrades": {
+      "label": "includedTrades",
+      "type": "tag",
+      "value": []
+    },
+    "validityStartDate": {
+      "label": "validityStartDate",
+      "type": "datePicker",
+      "value": ""
+    },
+    "excludedTrades": {
+      "label": "excludedTrades",
+      "type": "tag",
+      "value": []
+    },
+    "signingDate": {
+      "label": "signingDate",
+      "type": "datePicker",
+      "value": ""
+    },
+    "effectiveAsOf": {
+      "label": "effectiveAsOf",
+      "type": "datePicker",
+      "value": ""
+    },
+    "validityEndDate": {
+      "label": "validityEndDate",
+      "type": "datePicker",
+      "value": ""
+    }
+  },
+  "group8": {
+    "label": "group8",
+    "minimumTransferAmtCptyCcy": {
+      "label": "minimumTransferAmtCptyCcy",
+      "type": "dropdown",
+      "value": ""
+    },
+    "thresholdRatingApplicableCpty": {
+      "label": "thresholdRatingApplicableCpty",
+      "type": "radio",
+      "value": null
+    },
+    "minimumTransferAmt": {
+      "label": "minimumTransferAmt",
+      "type": "input",
+      "value": ""
+    },
+    "minimumTransferAmtCcy": {
+      "label": "minimumTransferAmtCcy",
+      "type": "dropdown",
+      "value": ""
+    },
+    "thresholdAmt": {
+      "label": "thresholdAmt",
+      "type": "input",
+      "value": ""
+    },
+    "thresholdAmtCpty": {
+      "label": "thresholdAmtCpty",
+      "type": "input",
+      "value": ""
+    },
+    "thresholdCcyCpty": {
+      "label": "thresholdCcyCpty",
+      "type": "dropdown",
+      "value": ""
+    },
+    "minimumTransferAmtCpty": {
+      "label": "minimumTransferAmtCpty",
+      "type": "input",
+      "value": ""
+    },
+    "thresholdRatingApplicable": {
+      "label": "thresholdRatingApplicable",
+      "type": "radio",
+      "value": null
+    },
+    "thresholdCcy": {
+      "label": "thresholdCcy",
+      "type": "dropdown",
+      "value": ""
+    }
+  },
+  "group9": {
+    "label": "group9",
+    "exclusiveArrangements": {
+      "label": "exclusiveArrangements",
+      "type": "radio",
+      "value": null
+    },
+    "uncollaterizedSLFlag": {
+      "label": "uncollaterizedSLFlag",
+      "type": "dropdown",
+      "value": ""
+    },
+    "prefundingRequirements": {
+      "label": "prefundingRequirements",
+      "type": "radio",
+      "value": null
+    },
+    "methodUsedToProvideCollateral": {
+      "label": "methodUsedToProvideCollateral",
+      "type": "dropdown",
+      "value": ""
+    }
+  },
+  "group10": {
+    "label": "group10",
+    "repricing": {
+      "label": "repricing",
+      "type": "repricing",
+      "value": null
+    },
+    "ukGiltEdgedSecurities": {
+      "label": "ukGiltEdgedSecurities",
+      "type": "radio",
+      "value": null
+    },
+    "marginCcyThresholdCpty": {
+      "label": "marginCcyThresholdCpty",
+      "type": "dropdown",
+      "value": ""
+    },
+    "marginCcyThreshold": {
+      "label": "marginCcyThreshold",
+      "type": "dropdown",
+      "value": ""
+    },
+    "spotRate": {
+      "label": "spotRate",
+      "type": "input",
+      "value": ""
+    },
+    "deliveryPeriod": {
+      "label": "deliveryPeriod",
+      "type": "input",
+      "value": ""
+    },
+    "netPayingSecurities": {
+      "label": "netPayingSecurities",
+      "type": "radio",
+      "value": null
+    },
+    "buySellTransactions": {
+      "label": "buySellTransactions",
+      "type": "radio",
+      "value": null
+    },
+    "italianGovBonds": {
+      "label": "italianGovBonds",
+      "type": "radio",
+      "value": null
+    },
+    "repricingCcyThresholdCpty": {
+      "label": "repricingCcyThresholdCpty",
+      "type": "dropdown",
+      "value": ""
+    },
+    "repricingCcyThreshold": {
+      "label": "repricingCcyThreshold",
+      "type": "dropdown",
+      "value": ""
+    },
+    "marginTransfer": {
+      "label": "marginTransfer",
+      "type": "marginTransfer",
+      "value": null
+    },
+    "transactionExposure": {
+      "label": "transactionExposure",
+      "type": "radio",
+      "value": null
+    },
+    "agencyTransactions": {
+      "label": "agencyTransactions",
+      "type": "radio",
+      "value": null
+    },
+    "interestRateCashMargin": {
+      "label": "interestRateCashMargin",
+      "type": "input",
+      "value": ""
+    }
+  },
+  "group11": {
+    "label": "group11",
+    "statusDate": {
+      "label": "statusDate",
+      "type": "datePicker",
+      "value": ""
+    },
+    "status": {
+      "label": "status",
+      "type": "input",
+      "value": ""
+    }
+  },
+  "group12": {
+    "label": "group12",
+    "independentAmtTradeLevel": {
+      "label": "independentAmtTradeLevel",
+      "type": "radio",
+      "value": ""
+    },
+    "independentAmtCpty": {
+      "label": "independentAmtCpty",
+      "type": "input",
+      "value": ""
+    },
+    "independentAmt": {
+      "label": "independentAmt",
+      "type": "input",
+      "value": ""
+    },
+    "independentAmtCptyCcy": {
+      "label": "independentAmtCptyCcy",
+      "type": "dropdown",
+      "value": ""
+    },
+    "independentAmtCcy": {
+      "label": "independentAmtCcy",
+      "type": "dropdown",
+      "value": ""
+    }
+  },
+  "group13": {
+    "label": "group13",
+    "terminationCurrency": {
+      "label": "terminationCurrency",
+      "type": "dropdown",
+      "value": ""
+    },
+    "jurisdiction": {
+      "label": "jurisdiction",
+      "type": "dropdown",
+      "value": ""
+    }
+  },
+  "group14": {
+    "label": "group14",
+    "closeoutNetting": {
+      "label": "closeoutNetting",
+      "type": "radio",
+      "value": null
+    }
+  },
+  "group15": {
+    "label": "group15",
+    "counterpartyLegalCountry": {
+      "label": "counterpartyLegalCountry",
+      "type": "input",
+      "value": ""
+    },
+    "counterpartyCodeStatus": {
+      "label": "counterpartyCodeStatus",
+      "type": "input",
+      "value": ""
+    },
+    "counterpartyMainLegacyId": {
+      "label": "counterpartyMainLegacyId",
+      "type": "input",
+      "value": ""
+    },
+    "counterpartyLeiCode": {
+      "label": "counterpartyLeiCode",
+      "type": "input",
+      "value": ""
+    },
+    "counterpartyCountryOfDomicile": {
+      "label": "counterpartyCountryOfDomicile",
+      "type": "input",
+      "value": ""
+    },
+    "counterpartyMifidClassification": {
+      "label": "counterpartyMifidClassification",
+      "type": "input",
+      "value": ""
+    },
+    "counterpartyCruBranch": {
+      "label": "counterpartyCruBranch",
+      "type": "input",
+      "value": ""
+    },
+    "counterpartyCruManager": {
+      "label": "counterpartyCruManager",
+      "type": "input",
+      "value": ""
+    },
+    "counterpartyWssCustomerNumber": {
+      "label": "counterpartyWssCustomerNumber",
+      "type": "input",
+      "value": ""
+    },
+    "counterpartyCountryOfIncorporation": {
+      "label": "counterpartyCountryOfIncorporation",
+      "type": "input",
+      "value": ""
+    },
+    "counterpartyMainLegacyCountry": {
+      "label": "counterpartyMainLegacyCountry",
+      "type": "input",
+      "value": ""
+    }
+  },
+  "group16": {
+    "label": "group16",
+    "initialAmountCcy": {
+      "label": "initialAmountCcy",
+      "type": "dropdown",
+      "value": ""
+    },
+    "initialAmountCptyCcy": {
+      "label": "initialAmountCptyCcy",
+      "type": "dropdown",
+      "value": ""
     },
     "initialAmount": {
-        "label": "initialAmount",
-        "initialAmountNordeaCcy": {
-            "label": "initialAmountNordeaCcy",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "initialAmountCptyCcy": {
-            "label": "initialAmountCptyCcy",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "initialAmountNordea": {
-            "label": "initialAmountNordea",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "initialAmountCpty": {
-            "label": "initialAmountCpty",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        }
+      "label": "initialAmount",
+      "type": "input",
+      "value": ""
     },
-    "creditHierarchy": {
-        "label": "creditHierarchy",
-        "counterpartyLegalType": {
-            "label": "counterpartyLegalType",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "counterpartyHierarchyLvl": {
-            "label": "counterpartyHierarchyLvl",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        }
+    "initialAmountCpty": {
+      "label": "initialAmountCpty",
+      "type": "input",
+      "value": ""
+    }
+  },
+  "group17": {
+    "label": "group17",
+    "counterpartyLegalType": {
+      "label": "counterpartyLegalType",
+      "type": "dropdown",
+      "value": ""
+    },
+  },
+  "group18": {
+    "label": "group18",
+    "roundingAmtNdeaCcy": {
+      "label": "roundingAmtNdeaCcy",
+      "type": "dropdown",
+      "value": ""
+    },
+    "roundingAmtCptyCcy": {
+      "label": "roundingAmtCptyCcy",
+      "type": "dropdown",
+      "value": ""
+    },
+    "roundingAmtNdea": {
+      "label": "roundingAmtNdea",
+      "type": "input",
+      "value": ""
+    },
+    "roundingReturn": {
+      "label": "roundingReturn",
+      "type": "dropdown",
+      "value": ""
+    },
+    "roundingDelivery": {
+      "label": "roundingDelivery",
+      "type": "dropdown",
+      "value": ""
     },
     "rounding": {
-        "label": "rounding",
-        "roundingAmtNdeaCcy": {
-            "label": "roundingAmtNdeaCcy",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "roundingAmtCptyCcy": {
-            "label": "roundingAmtCptyCcy",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "roundingAmtNdea": {
-            "label": "roundingAmtNdea",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        },
-        "roundingReturn": {
-            "label": "roundingReturn",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "roundingDelivery": {
-            "label": "roundingDelivery",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        },
-        "roundingAmtCpty": {
-            "label": "roundingAmtCpty",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "input",
-            "value": ""
-        }
-    },
-    "baseCurrency": {
-        "label": "baseCurrency",
-        "agreementBaseCurrency": {
-            "label": "agreementBaseCurrency",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "dropdown",
-            "value": ""
-        }
-    },
-    "coveredProducts": {
-        "label": "coveredProducts",
-        "legalProductCoverage": {
-            "label": "legalProductCoverage",
-            "disabled": false,
-            "multipleValues": false,
-            "type": "coveredProducts",
-            "value": []
-        }
+      "label": "rounding",
+      "type": "input",
+      "value": ""
     }
+  },
+  "group19": {
+    "label": "group19",
+    "currency": {
+      "label": "currency",
+      "type": "dropdown",
+      "value": ""
+    }
+  },
+  "group20": {
+    "label": "group20",
+    "productCoverage": {
+      "label": "productCoverage",
+      "type": "checkbox",
+      "value": []
+    }
+  }
 }]
