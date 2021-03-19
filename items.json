@@ -164,7 +164,7 @@
       "value": ""
     },
     "masterType": {
-      "label": "MasterType"
+      "label": "MasterType",
       "type": "input",
       "value": "Test master type"
     },
