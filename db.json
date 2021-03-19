@@ -1,0 +1,818 @@
+[{
+  partyIdent: {
+    label: "partyIdent",
+    counterpartyName: {
+      label: "counterpartyName",
+      disabled: false,
+      multipleValues: false,
+      type: "counterparty",
+      value: ""
+    },
+    shortName: {
+      label: "shortName",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyTCCid: {
+      label: "counterpartyTCCid",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyCoveredBranches: {
+      label: "counterpartyCoveredBranches",
+      disabled: false,
+      multipleValues: true,
+      type: "dropdown",
+      value: []
+    }
+  },
+  collateralDetails: {
+    label: "collateralDetails",
+    collateralComments: {
+      label: "collateralComments",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    nordeaPostsCollateral: {
+      label: "nordeaPostsCollateral",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    valuationFrequencyDayOfMonth: {
+      label: "valuation Frequency Day Of Month",
+      disabled: false,
+      multipleValues: false,
+      type: "checkbox",
+      value: []
+    },
+    valuationFrequencyEvenOddWeeks: {
+      label: "valuationFrequencyEvenOddWeeks",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    triPartyAgreement: {
+      label: "triPartyAgreement",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    collateralAgreement: {
+      label: "collateralAgreement",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: ""
+    },
+    valuationAgent: {
+      label: "valuationAgent",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    valuationFrequencyDayOfWeek: {
+      label: "valuationFrequencyDayOfWeek",
+      disabled: false,
+      multipleValues: false,
+      type: "checkbox",
+      value: []
+    },
+    cptyPostsCollateral: {
+      label: "cptyPostsCollateral",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    valuationFrequency: {
+      label: "valuationFrequency",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    }
+  },
+  paymentNettingProvision: {
+    label: "paymentNettingProvision",
+    paymentNetting: {
+      label: "paymentNetting",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    paymentNettingTerms: {
+      label: "paymentNettingTerms",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    }
+  },
+  nordea: {
+    label: "nordea",
+    nordeaContractingEntity: {
+      label: "nordeaContractingEntity",
+      disabled: false,
+      multipleValues: false,
+      type: "contractingEntity",
+      value: ""
+    },
+    nordeaCoveredBranches: {
+      label: "nordeaCoveredBranches",
+      disabled: false,
+      multipleValues: true,
+      type: "dropdown",
+      value: []
+    },
+    multifund: {
+      label: "multifund",
+      disabled: false,
+      multipleValues: false,
+      type: "multifund",
+      value: ""
+    }
+  },
+  other: {
+    label: "other",
+    clearing: {
+      label: "clearing",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    isdaBridgeLetter: {
+      label: "isdaBridgeLetter",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    dateOfLastModification: {
+      label: "dateOfLastModification",
+      disabled: true,
+      multipleValues: false,
+      type: "datePicker",
+      value: ""
+    },
+    legalOpinion: {
+      label: "legalOpinion",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    giveUpAgreement: {
+      label: "giveUpAgreement",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    legalOpinionReviewDate: {
+      label: "legalOpinionReviewDate",
+      disabled: false,
+      multipleValues: false,
+      type: "datePicker",
+      value: ""
+    },
+    clearingNordeaRole: {
+      label: "clearingNordeaRole",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    giveUpClients: {
+      label: "giveUpClients",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: []
+    }
+  },
+  coreAttributes: {
+    label: "coreAttributes",
+    agreementComments: {
+      label: "agreementComments",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    agreementReference: {
+      label: "agreementReference",
+      disabled: true,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    agreementMasterType: {
+      label: "agreementMasterType",
+      disabled: true,
+      multipleValues: false,
+      type: "input",
+      value: "Test master type"
+    },
+    agreementSettlementCurrency: {
+      label: "agreementSettlementCurrency",
+      disabled: false,
+      multipleValues: true,
+      type: "dropdown",
+      value: []
+    },
+    governingLaw: {
+      label: "governingLaw",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    agreementType: {
+      label: "agreementType",
+      disabled: true,
+      multipleValues: false,
+      type: "input",
+      value: "Test type"
+    },
+    documentationUnit: {
+      label: "documentationUnit",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    agreementSuperType: {
+      label: "agreementSuperType",
+      disabled: true,
+      multipleValues: false,
+      type: "input",
+      value: "Test super type"
+    }
+  },
+  agreementValidity: {
+    label: "agreementValidity",
+    datedAsOf: {
+      label: "datedAsOf",
+      disabled: false,
+      multipleValues: false,
+      type: "datePicker",
+      value: ""
+    },
+    ceasedAsOf: {
+      label: "ceasedAsOf",
+      disabled: false,
+      multipleValues: false,
+      type: "datePicker",
+      value: ""
+    },
+    includedTrades: {
+      label: "includedTrades",
+      disabled: false,
+      multipleValues: false,
+      type: "tag",
+      value: []
+    },
+    validityStartDate: {
+      label: "validityStartDate",
+      disabled: false,
+      multipleValues: false,
+      type: "datePicker",
+      value: ""
+    },
+    excludedTrades: {
+      label: "excludedTrades",
+      disabled: false,
+      multipleValues: false,
+      type: "tag",
+      value: []
+    },
+    signingDate: {
+      label: "signingDate",
+      disabled: false,
+      multipleValues: false,
+      type: "datePicker",
+      value: ""
+    },
+    effectiveAsOf: {
+      label: "effectiveAsOf",
+      disabled: false,
+      multipleValues: false,
+      type: "datePicker",
+      value: ""
+    },
+    validityEndDate: {
+      label: "validityEndDate",
+      disabled: false,
+      multipleValues: false,
+      type: "datePicker",
+      value: ""
+    }
+  },
+  threshold: {
+    label: "threshold",
+    minimumTransferAmtCptyCcy: {
+      label: "minimumTransferAmtCptyCcy",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    thresholdRatingApplicableCpty: {
+      label: "thresholdRatingApplicableCpty",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    minimumTransferAmtNordea: {
+      label: "minimumTransferAmtNordea",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    minimumTransferAmtNordeaCcy: {
+      label: "minimumTransferAmtNordeaCcy",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    thresholdAmtNordea: {
+      label: "thresholdAmtNordea",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    thresholdAmtCpty: {
+      label: "thresholdAmtCpty",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    thresholdCcyCpty: {
+      label: "thresholdCcyCpty",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    minimumTransferAmtCpty: {
+      label: "minimumTransferAmtCpty",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    thresholdRatingApplicableNordea: {
+      label: "thresholdRatingApplicableNordea",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    thresholdCcyNordea: {
+      label: "thresholdCcyNordea",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    }
+  },
+  sftrAttributes: {
+    label: "sftrAttributes",
+    exclusiveArrangements: {
+      label: "exclusiveArrangements",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    uncollaterizedSLFlag: {
+      label: "uncollaterizedSLFlag",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    prefundingRequirements: {
+      label: "prefundingRequirements",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    gmslaAgreementVersion: {
+      label: "gmslaAgreementVersion",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    methodUsedToProvideCollateral: {
+      label: "methodUsedToProvideCollateral",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    }
+  },
+  repoAnnex: {
+    label: "repoAnnex",
+    repricing: {
+      label: "repricing",
+      disabled: false,
+      multipleValues: false,
+      type: "repricing",
+      value: null
+    },
+    ukGiltEdgedSecurities: {
+      label: "ukGiltEdgedSecurities",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    marginCcyThresholdCpty: {
+      label: "marginCcyThresholdCpty",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    marginCcyThresholdNordea: {
+      label: "marginCcyThresholdNordea",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    spotRate: {
+      label: "spotRate",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    deliveryPeriod: {
+      label: "deliveryPeriod",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    netPayingSecurities: {
+      label: "netPayingSecurities",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    buySellTransactions: {
+      label: "buySellTransactions",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    italianGovBonds: {
+      label: "italianGovBonds",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    repricingCcyThresholdCpty: {
+      label: "repricingCcyThresholdCpty",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    repricingCcyThresholdNordea: {
+      label: "repricingCcyThresholdNordea",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    marginTransfer: {
+      label: "marginTransfer",
+      disabled: false,
+      multipleValues: false,
+      type: "marginTransfer",
+      value: null
+    },
+    transactionExposure: {
+      label: "transactionExposure",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    agencyTransactions: {
+      label: "agencyTransactions",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    },
+    interestRateCashMargin: {
+      label: "interestRateCashMargin",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    }
+  },
+  agreementLifecycle: {
+    label: "agreementLifecycle",
+    statusDate: {
+      label: "statusDate",
+      disabled: true,
+      multipleValues: false,
+      type: "datePicker",
+      value: ""
+    },
+    agreementStatus: {
+      label: "agreementStatus",
+      disabled: true,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    }
+  },
+  independentAmount: {
+    label: "independentAmount",
+    independentAmtTradeLevel: {
+      label: "independentAmtTradeLevel",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: ""
+    },
+    independentAmtCpty: {
+      label: "independentAmtCpty",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    independentAmtNordea: {
+      label: "independentAmtNordea",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    independentAmtCptyCcy: {
+      label: "independentAmtCptyCcy",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    independentAmtNordeaCcy: {
+      label: "independentAmtNordeaCcy",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    }
+  },
+  otherNettingAttribute: {
+    label: "otherNettingAttribute",
+    terminationCurrency: {
+      label: "terminationCurrency",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    jurisdiction: {
+      label: "jurisdiction",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    }
+  },
+  closeOutNettingProvision: {
+    label: "closeOutNettingProvision",
+    closeoutNetting: {
+      label: "closeoutNetting",
+      disabled: false,
+      multipleValues: false,
+      type: "radio",
+      value: null
+    }
+  },
+  contractingCounterparty: {
+    label: "contractingCounterparty",
+    counterpartyLegalCountry: {
+      label: "counterpartyLegalCountry",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyLeiCodeStatus: {
+      label: "counterpartyLeiCodeStatus",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyMainLegacyId: {
+      label: "counterpartyMainLegacyId",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyLeiCode: {
+      label: "counterpartyLeiCode",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyCountryOfDomicile: {
+      label: "counterpartyCountryOfDomicile",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyMifidClassification: {
+      label: "counterpartyMifidClassification",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyCruBranch: {
+      label: "counterpartyCruBranch",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyCruManager: {
+      label: "counterpartyCruManager",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyWssCustomerNumber: {
+      label: "counterpartyWssCustomerNumber",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyCountryOfIncorporation: {
+      label: "counterpartyCountryOfIncorporation",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    counterpartyMainLegacyCountry: {
+      label: "counterpartyMainLegacyCountry",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    }
+  },
+  initialAmount: {
+    label: "initialAmount",
+    initialAmountNordeaCcy: {
+      label: "initialAmountNordeaCcy",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    initialAmountCptyCcy: {
+      label: "initialAmountCptyCcy",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    initialAmountNordea: {
+      label: "initialAmountNordea",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    initialAmountCpty: {
+      label: "initialAmountCpty",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    }
+  },
+  creditHierarchy: {
+    label: "creditHierarchy",
+    counterpartyLegalType: {
+      label: "counterpartyLegalType",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    counterpartyHierarchyLvl: {
+      label: "counterpartyHierarchyLvl",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    }
+  },
+  rounding: {
+    label: "rounding",
+    roundingAmtNdeaCcy: {
+      label: "roundingAmtNdeaCcy",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    roundingAmtCptyCcy: {
+      label: "roundingAmtCptyCcy",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    roundingAmtNdea: {
+      label: "roundingAmtNdea",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    },
+    roundingReturn: {
+      label: "roundingReturn",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    roundingDelivery: {
+      label: "roundingDelivery",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    },
+    roundingAmtCpty: {
+      label: "roundingAmtCpty",
+      disabled: false,
+      multipleValues: false,
+      type: "input",
+      value: ""
+    }
+  },
+  baseCurrency: {
+    label: "baseCurrency",
+    agreementBaseCurrency: {
+      label: "agreementBaseCurrency",
+      disabled: false,
+      multipleValues: false,
+      type: "dropdown",
+      value: ""
+    }
+  },
+  coveredProducts: {
+    label: "coveredProducts",
+    legalProductCoverage: {
+      label: "legalProductCoverage",
+      disabled: false,
+      multipleValues: false,
+      type: "coveredProducts",
+      value: []
+    }
+  }
+}]
